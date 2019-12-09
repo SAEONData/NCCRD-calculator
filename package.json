@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-react-dropdowns": "^3.6.0",
+    "@progress/kendo-react-intl": "^3.6.0",
+    "create-react-class": "^15.6.3",
+    "mdbreact": "^4.22.0",
     "react": "^16.11.0",
+    "react-date-range": "^0.9.4",
+    "react-datepicker": "^2.9.6",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.2.0",
+    "react-table": "^7.0.0-beta.12",
+    "redux": "^4.0.4",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "namor": "^1.1.3"
   }
 }
